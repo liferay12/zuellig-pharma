@@ -1,0 +1,10 @@
+Bundle-Name: commons-api
+Bundle-SymbolicName: com.zpharma.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.zpharma.exception,\
+	com.zpharma.model,\
+	com.zpharma.service,\
+	com.zpharma.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../commons-service/service.xml

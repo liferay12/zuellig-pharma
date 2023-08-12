@@ -1,0 +1,54 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap");*/
+@import 'clay/base';
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 100;
+  src:url('googlefonts/Montserrat-Thin.ttf');
+  }
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200;
+  src:url('googlefonts/Montserrat-ExtraLight.ttf');
+  }
+  @font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  src:url('googlefonts/Montserrat-Light.ttf');
+  }
+  @font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src:url('googlefonts/Montserrat-Regular.ttf');
+  }
+  @font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src:url('googlefonts/Montserrat-Medium.ttf');
+  }
+  @font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src:url('googlefonts/Montserrat-SemiBold.ttf');
+  }
+  @font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src:url('googlefonts/Montserrat-Bold.ttf');
+  }
+
+
+body {
+	font-family: 'Montserrat', sans-serif!important ;
+	font-size: var(--basefontsize) ;
+	background-color: var(--backgroundbg) ;
+}
+
+

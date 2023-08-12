@@ -1,0 +1,4 @@
+Bundle-Name: commons-web
+Bundle-SymbolicName: com.zpharma.commons.web
+Bundle-Version: 1.0.0
+Export-Package: com.zpharma.commons.web.constants

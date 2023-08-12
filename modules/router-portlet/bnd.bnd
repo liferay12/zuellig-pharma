@@ -1,0 +1,4 @@
+Bundle-Name: router-portlet
+Bundle-SymbolicName: com.zpharma.router
+Bundle-Version: 1.0.0
+Export-Package: com.zpharma.router.constants

@@ -1,0 +1,4 @@
+Bundle-Name: zpharma-templates
+Bundle-SymbolicName: zpharma.templates
+Bundle-Version: 1.0.0
+Web-ContextPath: /zpharma-templates

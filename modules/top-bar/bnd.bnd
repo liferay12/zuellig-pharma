@@ -1,0 +1,4 @@
+Bundle-Name: top-bar
+Bundle-SymbolicName: com.zpharma.topbar
+Bundle-Version: 1.0.0
+Export-Package: com.zpharma.topbar.constants

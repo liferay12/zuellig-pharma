@@ -1,0 +1,22 @@
+<%@page import="com.zpharma.service.SiteConfigLocalServiceUtil"%>
+<%@page import="com.zpharma.model.SiteConfig"%>
+<%@ include file="/init.jsp"%>
+<%
+SiteConfig siteConfig = SiteConfigLocalServiceUtil.getSiteConfig(themeDisplay.getScopeGroup());
+%>
+<!-- <div class="dropdown" >
+	<a class="topbar-link dropdown-toggle" href="#" data-toggle="dropdown"><i
+		class="fas fa-map-marker-alt mr-2"></i> Klongtoey, Bangkok 10110</a>
+	<ul class="dropdown-menu my-1">
+		<li><a class="dropdown-item pb-1" href="#">Français</a></li>
+		<li><a class="dropdown-item pb-1" href="#">Deutsch</a></li>
+		<li><a class="dropdown-item" href="#">Italiano</a></li>
+	</ul>
+</div> -->
+<div class="topbar-text">
+	<i class="fas fa-envelope mr-2"></i> <%=siteConfig.getSiteEmailAddress() %>
+</div>
+<div class="topbar-text">
+	<i class="fas fa-phone mr-2"></i> <%=siteConfig.getSitePhoneNumber() %>
+</div>
+<div class="topbar-text d-none d-sm-block">Opening Hours: <%=siteConfig.getOpeninghours() %></div>

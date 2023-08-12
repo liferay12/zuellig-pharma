@@ -1,0 +1,1 @@
+create index IX_CBF92B84 on ZUELLIG_SiteConfig (groupId);
